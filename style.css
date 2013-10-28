@@ -1,0 +1,116 @@
+body{
+	background-color:#BBB;
+	margin:0px;
+	padding:0px;
+	font-family:sans,arial;
+	font-size:12px;
+}
+#utama{
+	width:1000px;
+	text-align:left;
+	background-color:#CCC;
+	border-left:2px solid #444;
+	border-right:2px solid #444;
+}
+#head{
+	height:300px;
+	background-color:#666;
+	/*background-image: url(images/back.jpg);*/
+}
+/* navigasi gan */
+#nav{
+	height:60px;
+	background-color:#333;
+}
+#nav ul{
+	padding:0px;
+	margin:0px 0px 0px 120px;
+}
+#nav ul li{
+	font-size:17px;
+	float:left; /* ni maksud ane */
+	list-style:none;
+}
+#nav ul li a:link,#nav ul li a:active,#nav ul li a:visited{ /* pas normal */
+	display:block;
+	width:100px;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+	color:#BBB;
+	text-decoration:none;
+}
+#nav ul li a:hover{ /* pas di sorot */
+	background-color:#000;
+	color:#fff;
+}
+#content{
+	background-color:#888;
+}
+#content #baris1{
+	width:500px;
+	min-height:500px;
+	float:left;
+	background-color:#AAA;
+}
+#content #baris1 p{
+	padding:5px 20px 5px 20px;
+}
+#content #baris1 p img{
+	padding:0px;
+	margin:0px 8px 3px 0px;
+	border:1px solid #CCC;
+}
+#content #baris1 h3{
+	font-size:20px;
+	padding:5px 20px 0px 20px;
+}
+#content #baris2{
+	width:250px;
+	float:left;
+}
+#baris2 ul{
+	padding:0px;
+	margin:0px;
+}
+#baris2 ul li{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+#baris2 ul li a:link,#baris2 ul li a:active,#baris2 ul li a:visited{ /* pas normal */
+	display:block;
+	width:220px;
+	padding:10px 0px 10px 30px;
+	color:#333;
+	text-decoration:none;
+	border-bottom:1px solid #AAA;
+}
+#baris2 ul li a:hover{ /* pas di sorot */
+	background-color:#000;
+	color:#fff;
+}
+#credit{
+	height:200px;
+	background-color:#555;
+}
+#credit div{
+	text-align:center;
+	padding:20px 0px 0px 0px;
+	color:#fff;
+}
+.thumbnails{
+	float:left;
+	padding:0px;
+	margin:5px;
+}
+.thumbnails img{
+	padding:0px;
+	margin:0px;
+}
+.thumbnails a:link,.thumbnails a:active,.thumbnails a:visited{ /* pas normal */
+	display:block;
+	border:1px solid #BBB;
+}
+.thumbnails a:hover{ /* pas di sorot */
+	border:1px solid #FFF;
+}
